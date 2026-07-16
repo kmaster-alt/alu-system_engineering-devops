@@ -2,4 +2,4 @@
 # Creates an RSA SSH key pair
 
 rm -f school school.pub
-ssh-keygen -t rsa -b 4096 -f school -N "betty"
+ssh-keygen -t rsa -b 4096 -f school -N "betty" -q
