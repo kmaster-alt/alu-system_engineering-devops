@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Creates a 4096-bit RSA SSH key pair
+# Creates an RSA SSH key pair
 
 rm -f school school.pub
 ssh-keygen -t rsa -b 4096 -f school -N "betty"
